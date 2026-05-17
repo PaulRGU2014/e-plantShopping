@@ -47,10 +47,4 @@ export const selectTotalAmount = (state) =>
 
 export default cartSlice.reducer;
 
-export const selectCartItems = (state) => state.cart.items;
-
-export const selectTotalQuantity = (state) => state.cart.items.reduce((sum, item) => sum + item.quantity, 0);
-
-export const selectTotalAmount = (state) => state.cart.items.reduce((sum, item) => sum + item.price * item.quantity, 0);
-
-export default cartSlice.reducer;
+// (Removed duplicate selectors and default export)
