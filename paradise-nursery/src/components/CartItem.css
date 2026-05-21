@@ -72,3 +72,9 @@ button:hover {
   padding: 10px 28px;
   font-size: 1.1rem;
 }
+
+.cart-footer{
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+}
