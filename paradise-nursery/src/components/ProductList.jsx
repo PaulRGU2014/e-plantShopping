@@ -45,6 +45,41 @@ const plants = [
     image: "/images/sting-of-pearls.webp",
     category: "Trailing",
   },
+  {
+    id: "rubber-plant",
+    name: "Rubber Plant",
+    price: 28,
+    image: "/images/rubber-plant.webp",
+    category: "Statement",
+  },
+  {
+    id: "philodendron-heartleaf",
+    name: "Heartleaf Philodendron",
+    price: 19,
+    image: "/images/heartleaf-philodendron.webp",
+    category: "Trailing",
+  },
+  {
+    id: "calathea-orbifolia",
+    name: "Calathea Orbifolia",
+    price: 30,
+    image: "/images/calathea-orbifolia.webp",
+    category: "Low Light",
+  },
+  {
+    id: "anthurium",
+    name: "Anthurium",
+    price: 24,
+    image: "/images/anthurium.webp",
+    category: "Flowering",
+  },
+  {
+    id: "bird-of-paradise",
+    name: "Bird of Paradise",
+    price: 36,
+    image: "/images/bird-of-paradise.webp",
+    category: "Statement",
+  },
 ];
 
 function ProductList() {
